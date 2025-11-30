@@ -1,14 +1,14 @@
 ---
 
-# 🥘 TheMealDB Explorer
+#  TheMealDB Explorer
 
-A full-stack application built with **Spring Boot (Java), HTML, CSS, and Vanilla JavaScript** that fetches and displays recipes from **TheMealDB API** through a custom backend service layer.
+A full-stack application built with Spring Boot (Java), HTML, CSS, and Vanilla JavaScript that fetches and displays recipes from **TheMealDB API** through a custom backend service layer.
 
 This project implements a complete **Web Service API + UI Layer** with caching, REST architecture, and recipe browsing features.
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 **TheMealDB Explorer** is a locally running full-stack app that allows users to:
 
@@ -27,9 +27,9 @@ A custom backend layer is implemented to:
 
 ---
 
-# 📌 Features
+#  Features
 
-### ✅ Backend (Spring Boot)
+###  Backend (Spring Boot)
 
 * RESTful API design
 * Fetches data from **TheMealDB API** using test key: `https://www.themealdb.com/api/json/v1/1/`
@@ -45,7 +45,7 @@ A custom backend layer is implemented to:
 
 ---
 
-### 🎨 Frontend (HTML + CSS + JavaScript)
+###  Frontend (HTML , CSS and JavaScript)
 
 * Modern UI built with:
 
@@ -65,7 +65,7 @@ A custom backend layer is implemented to:
 
 ---
 
-# 📁 Project Structure
+#  Project Structure
 
 ```
 MealDBExplorer/
@@ -92,9 +92,9 @@ MealDBExplorer/
 
 ---
 
-# ⚙️ Installation & Setup
+#  Installation & Setup
 
-## 1️⃣ Prerequisites
+##  Prerequisites
 
 * Java 17+
 * Maven
@@ -102,7 +102,7 @@ MealDBExplorer/
 
 ---
 
-## 2️⃣ Clone the Repository
+##  Clone the Repository
 
 ```bash
 git clone https://github.com/yourusername/MealDBExplorer.git
@@ -111,7 +111,7 @@ cd MealDBExplorer
 
 ---
 
-## 3️⃣ Run the Backend
+##  Run the Backend
 
 ```bash
 mvn spring-boot:run
@@ -125,7 +125,7 @@ http://localhost:8080
 
 ---
 
-## 4️⃣ Run the Frontend
+##  Run the Frontend
 
 Simply open:
 
@@ -137,27 +137,27 @@ Or use Live Server (VS Code) for auto refresh.
 
 ---
 
-# 🧪 REST API Documentation
+#  REST API Documentation
 
-## 🔍 Search meals
+##  Search meals
 
 ```
 GET /api/meals/search?name=chicken
 ```
 
-## 🥘 Get a meal by ID
+##  Get a meal by ID
 
 ```
 GET /api/meals/{id}
 ```
 
-## 🎲 Random meal
+##  Random meal
 
 ```
 GET /api/meals/random
 ```
 
-## 🗂️ List categories
+##  List categories
 
 ```
 GET /api/meals/categories
@@ -165,7 +165,7 @@ GET /api/meals/categories
 
 ---
 
-# ⚡ Caching
+#  Caching
 
 This project uses **Spring Cache** (Simple in-memory cache) with:
 
@@ -192,43 +192,11 @@ Cached entries improve performance and reduce API calls.
 | API Source   | TheMealDB API                               |
 | Build Tool   | Maven                                       |
 
----
-
-# 🌟 Screenshots (optional)
-
-You may add:
-
-* Home page
-* Search results
-* Recipe details modal
 
 ---
 
-# 📚 Future Improvements
 
-* Add favorite meals storage
-* Convert frontend to React or Angular
-* Use Redis Cache instead of simple cache
-* Add pagination for search results
-* Add area filter (Italian, Mexican, etc.)
-
----
-
-# 📝 Submission Checklist (as per assignment)
-
-✔ Web service implemented
-✔ Caching implemented
-✔ RESTful endpoints
-✔ Local execution works
-✔ UI implemented (search, random, categories, details)
-✔ Uses TheMealDB test key
-✔ Code quality: Good separation of layers
-✔ Sends simplified API to frontend
-✔ Ready for GitHub submission
-
----
-
-# 📬 Contact / Developer
+#  Contact / Developer
 
 **Gaurav Chandrakant Patil**
 Full Stack Developer
