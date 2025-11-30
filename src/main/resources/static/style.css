@@ -1,0 +1,11 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+#mealModalBody img {
+    border-radius: 12px;
+}
